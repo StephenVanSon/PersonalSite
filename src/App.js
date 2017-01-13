@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import MyNavbar from './Navbar.js';
+import './css/App.css';
+import MyNavbar from './modules/Navbar.js';
 
 
 
@@ -17,7 +17,7 @@ class App extends React.Component {
                     <h2>Work in Progress!</h2>
                 </div>
 
-                <div className="App-header">
+                <div className="App">
                     {this.props.children}
                 </div>
 

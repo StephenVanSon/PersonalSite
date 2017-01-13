@@ -7,6 +7,7 @@ import {Navbar} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
+import '.././css/Navbar.css';
 
 //main navbar component
 export default class MyNavbar extends React.Component {
@@ -24,7 +25,9 @@ export default class MyNavbar extends React.Component {
                         <LinkContainer to="/about">
                             <NavItem>About</NavItem>
                         </LinkContainer>
-                        <NavItem href="#">Projects</NavItem>
+                        <LinkContainer to="/projects">
+                            <NavItem>Projects</NavItem>
+                        </LinkContainer>
                         <NavItem href="#">Work Experience</NavItem>
                         <NavItem href="#">Contact</NavItem>
                     </Nav>
