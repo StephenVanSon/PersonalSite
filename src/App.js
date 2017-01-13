@@ -14,14 +14,9 @@ class App extends React.Component {
 
             <div className="App">
                 <MyNavbar/>
-                <div>
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h2>{this.props.message}</h2>
-                </div>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
+                    <h2>Work in Progress!</h2>
                 </div>
             </div>
         );
