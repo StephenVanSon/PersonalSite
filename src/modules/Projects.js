@@ -10,7 +10,6 @@ import '../css/Project.css';
 
 var IndivComponents = [];
 var projectData = data.projects;
-console.log(projectData);
 for(var i=0; i < projectData.length; i++)
 {
     let imgSrc = projectData[i].src;
@@ -20,6 +19,7 @@ for(var i=0; i < projectData.length; i++)
     let key = "project_" + i;
     IndivComponents.push(<IndividualProjectComponent key={key} src={imgSrc} title={title} description={description} link={link}/>);
 }
+
 
 export default class Projects extends React.Component
 {

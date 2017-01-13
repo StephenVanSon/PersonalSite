@@ -21,6 +21,9 @@ a:hover, a:focus {
 }
 
 /* Common style */
+.grid div {
+    padding-top:5px;
+}
 .grid figure {
     position: relative;
     z-index: 1;
