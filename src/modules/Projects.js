@@ -12,12 +12,7 @@ var IndivComponents = [];
 var projectData = data.projects;
 for(var i=0; i < projectData.length; i++)
 {
-    let imgSrc = projectData[i].src;
-    let title = projectData[i].title;
-    let description = projectData[i].description;
-    let link = projectData[i].link;
-    let key = "project_" + i;
-    IndivComponents.push(<IndividualProjectComponent key={key} src={imgSrc} title={title} description={description} link={link}/>);
+    IndivComponents.push(<IndividualProjectComponent key={"project_" + i} src={projectData[i].src} title={projectData[i].title} description={projectData[i].description} link={projectData[i].link}/>);
 }
 
 
