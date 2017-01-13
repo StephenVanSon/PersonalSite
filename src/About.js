@@ -1,0 +1,16 @@
+/**
+ * Created by Stephen-PC on 1/12/2017.
+ */
+import React from 'react';
+
+export default class About extends React.Component
+{
+    render()
+    {
+        return(
+            <div>About me</div>
+
+        );
+    }
+
+}
