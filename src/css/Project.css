@@ -109,7 +109,9 @@ figure.effect-dexter {
 figure.effect-dexter img {
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
+    align: middle;
 }
+
 
 figure.effect-dexter:hover img {
     opacity: 0.4;
