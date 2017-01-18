@@ -22,13 +22,19 @@ export default class MyNavbar extends React.Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
+
                         <LinkContainer to="/about">
                             <NavItem>About</NavItem>
                         </LinkContainer>
+
                         <LinkContainer to="/projects">
                             <NavItem>Projects</NavItem>
                         </LinkContainer>
-                        <NavItem href="#">Work Experience</NavItem>
+
+                        <LinkContainer to="/work">
+                            <NavItem>Work Experience</NavItem>
+                        </LinkContainer>
+
                         <NavItem href="#">Contact</NavItem>
                     </Nav>
                 </Navbar.Collapse>

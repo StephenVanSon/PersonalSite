@@ -14,7 +14,7 @@ class App extends React.Component {
                 <MyNavbar/>
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Work in Progress!</h2>
+                    <h2>Under Construction!</h2>
                 </div>
 
                 <div className="App">
