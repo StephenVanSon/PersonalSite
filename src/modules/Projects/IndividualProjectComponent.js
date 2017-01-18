@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import {Col} from 'react-bootstrap';
-import '../css/Project.css';
+import '../../css/Project.css';
 
 
 export default class IndividualProjectComponent extends React.Component

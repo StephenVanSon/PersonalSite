@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainRouter from './modules/MainRouter';
+import MainRouter from './modules/Router/MainRouter';
 import './index.css';
 
 ReactDOM.render(

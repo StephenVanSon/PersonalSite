@@ -1,4 +1,4 @@
-{
+let data = {
   "projects": [
     {"src": "http://tympanus.net/Development/HoverEffectIdeas/img/12.jpg", "title":"My personal website!", "description": "A website I built to showcase my personal accomplishments and work history, think a live resume. I built this site using React.js, react-bootstrap, react-router, gh-pages in ES6.", "link": "https://github.com/StephenVanSon/PersonalSite"},
     {"src": "http://tympanus.net/Development/HoverEffectIdeas/img/12.jpg", "title":"test multiple project modules","description":"this is a test for rendering multiple modules", "link":"http://reddit.com"},
@@ -8,4 +8,6 @@
   ],
 
   "about": "I am a third year Computer Science student at the University of British Columbia. I am passionate about learning software related topics and making software ideas come to life. I have worked on numerous software projects both school related and on my own time. I understand that a good programmer not only knows the syntax of a particular language, but knows the fundamental concepts of Computer Science and how to apply that knowledge to create the best software possible."
-}
+};
+
+export default data;

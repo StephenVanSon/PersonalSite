@@ -5,8 +5,8 @@
 import React from 'react';
 import {Grid, Row} from 'react-bootstrap';
 import IndividualProjectComponent from './IndividualProjectComponent';
-import data from '../data/data.json';
-import '../css/Project.css';
+import data from '../../data/data';
+import '../../css/Project.css';
 
 var IndivComponents = [];
 var projectData = data.projects;

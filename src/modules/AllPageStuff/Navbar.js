@@ -7,7 +7,7 @@ import {Navbar} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
-import '.././css/Navbar.css';
+import '../../css/Navbar.css';
 
 //main navbar component
 export default class MyNavbar extends React.Component {
