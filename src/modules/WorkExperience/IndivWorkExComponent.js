@@ -37,7 +37,7 @@ export default class IndivWorkExComponent extends React.Component{
                                         <h2>{this.props.position}</h2>
                                     </Col>
                                     <Col xs={6} md={4}>
-                                        <h3>{this.props.dateRange}</h3>
+                                        <h4>{this.props.dateRange}</h4>
                                     </Col>
                                 </Row>
 
