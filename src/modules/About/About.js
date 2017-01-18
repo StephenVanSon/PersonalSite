@@ -11,7 +11,7 @@ export default class About extends React.Component
         return(
         <Well bsSize="small">
             <Jumbotron>
-                <h1>About myself</h1>
+                <h1>{this.props.title}</h1>
                     <p>
                     {this.props.description}
                     </p>

@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   padding-bottom: 20px;
+  background-color: #ECECEA;
+
 }
 
 .App-logo {
@@ -9,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #74AFAD;
   height: 150px;
   padding: 20px;
   color: white;
@@ -25,6 +27,7 @@
 }
 
 .navbar-dark {
-  margin-bottom:0
+  margin-bottom:0;
+  background-color: #558C89;
 }
 

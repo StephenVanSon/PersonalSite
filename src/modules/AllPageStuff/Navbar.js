@@ -35,7 +35,10 @@ export default class MyNavbar extends React.Component {
                             <NavItem>Work Experience</NavItem>
                         </LinkContainer>
 
-                        <NavItem href="#">Contact</NavItem>
+                        <LinkContainer to="/contact">
+                            <NavItem href="#">Contact</NavItem>
+                        </LinkContainer>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

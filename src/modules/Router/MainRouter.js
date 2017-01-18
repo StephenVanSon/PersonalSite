@@ -7,6 +7,7 @@ import React from 'react';
 import AboutWrapper from '../About/AboutWrapper';
 import Projects from '../Projects/Projects';
 import WorkExperience from '../WorkExperience/WorkExperience';
+import Contact from '../Contact/Contact';
 
 
 
@@ -20,7 +21,11 @@ class MainRouter extends React.Component
                    <Route path="/about" component={AboutWrapper}/>
                    <Route path="/projects" component={Projects}/>
                    <Route path="/work" component={WorkExperience}/>
+                   <Route path="/contact" component={Contact}/>
                </Route>
+
+
+
            </Router>
        )
     }

@@ -10,7 +10,7 @@ import About from './About';
 class AboutWrapper extends React.Component{
     render(){
         return(
-            <About description={data.about}/>
+            <About description={data.about.desc} title={data.about.title}/>
         );
     }
 
