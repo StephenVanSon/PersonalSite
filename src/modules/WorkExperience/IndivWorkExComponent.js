@@ -21,8 +21,8 @@ export default class IndivWorkExComponent extends React.Component{
         }
 
         return (
-            <Panel header={title}>
-                <Grid fluid={true}>
+            <Panel header={title} className="panelPad">
+                <Grid fluid={true} className="alignLeft">
                     <Row>
                             <Col xs={6} md={4}>
                                 <Image src={this.props.src} responsive/>

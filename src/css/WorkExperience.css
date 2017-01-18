@@ -7,6 +7,15 @@ div.alignLeft{
 ul.alignLeft{
     text-align:left;
     font-size: large;
+
+}
+
+div.workEx{
+    padding-top:1em;
+}
+
+div.panelPad{
+    padding-bottom:1em;
 }
 
 

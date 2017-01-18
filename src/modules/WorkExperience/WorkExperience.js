@@ -4,6 +4,7 @@
 import React from 'react';
 import data from '../../data/data';
 import IndivWorkExComponent from './IndivWorkExComponent'
+import "../../css/WorkExperience.css";
 
 
 var IndivComponents = [];
@@ -17,7 +18,7 @@ for(let i =0; i < workData.length; i++){
 class WorkExperience extends React.Component{
     render(){
         return (
-                <div>
+                <div className="workEx">
                     {IndivComponents}
                 </div>
 
