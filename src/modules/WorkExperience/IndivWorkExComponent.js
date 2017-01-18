@@ -17,7 +17,7 @@ export default class IndivWorkExComponent extends React.Component{
         let title = <Media.Left><h>{this.props.title}</h></Media.Left>;
         let Bullets = [];
         for(let i =0; i < this.props.description.length; i++){
-            Bullets.push(<li>{this.props.description[i]}</li>);
+            Bullets.push(<li key={"liWorkEx_" + i}>{this.props.description[i]}</li>);
         }
 
         return (

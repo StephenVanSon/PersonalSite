@@ -18,7 +18,7 @@ for(let i =0; i < workData.length; i++){
 class WorkExperience extends React.Component{
     render(){
         return (
-                <div className="workEx">
+                <div className="App">
                     {IndivComponents}
                 </div>
 
