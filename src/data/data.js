@@ -7,6 +7,7 @@ let data = {
   ],
 
   "about": {"title": "About myself","desc": "I am a third year Computer Science student at the University of British Columbia. I am passionate about learning software related topics and making software ideas come to life. I have worked on numerous software projects both school related and on my own time. I understand that a good programmer not only knows the syntax of a particular language, but knows the fundamental concepts of Computer Science and how to apply that knowledge to create the best software possible."},
+  "aboutSite":{"title": "About this site", "desc":"I made this website to showcase my personal accomplishments and work history, think a live resume. I built this site using React.js, react-bootstrap, react-router, gh-pages in ES6."},
 
   "work": [
       {"src": "../images/3esi-enersight.png", "title": "3esi-Enersight", "dateRange": "September 2016 - Current", "position": "Remote Software Developer", "description": ["Minor development work while I'm attending university.", "Duties include adding minor features and fixing bugs.", "Development on ASP.NET web application. Languages: C#, JavaScript and SQL."]},
