@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import data from '../../data/data';
+import {Well, PageHeader} from 'react-bootstrap';
 import IndivWorkExComponent from './IndivWorkExComponent'
 import "../../css/WorkExperience.css";
 
@@ -18,9 +19,13 @@ for(let i =0; i < workData.length; i++){
 class WorkExperience extends React.Component{
     render(){
         return (
-                <div className="App">
+            <Well bsSize="small">
+
+                <div className="container">
+                    <PageHeader>Work Experience</PageHeader>
                     {IndivComponents}
                 </div>
+            </Well>
 
         );
     }
