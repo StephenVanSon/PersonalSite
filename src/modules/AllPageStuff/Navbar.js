@@ -13,7 +13,7 @@ import '../../css/Navbar.css';
 export default class MyNavbar extends React.Component {
     render() {
         return (
-            <Navbar inverse collapseOnSelect className="navbar-dark navbar-static-top">
+            <Navbar inverse collapseOnSelect id="mainNav" className="navbar-dark navbar-static-top">
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="#">Stephen van Son</a>
@@ -36,7 +36,7 @@ export default class MyNavbar extends React.Component {
                         </LinkContainer>
 
                         <LinkContainer to="/contact">
-                            <NavItem href="#">Contact</NavItem>
+                            <NavItem>Contact</NavItem>
                         </LinkContainer>
 
                     </Nav>

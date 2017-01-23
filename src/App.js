@@ -15,6 +15,7 @@ class App extends React.Component {
         if(this.props.children){
             ComponentsToRender.push(this.props.children);
         }else{
+
             ComponentsToRender.push(<AboutWrapper dontRenderAboutSite={true}/>);
             ComponentsToRender.push(<Projects/>);
             ComponentsToRender.push(<WorkExperience/>);
